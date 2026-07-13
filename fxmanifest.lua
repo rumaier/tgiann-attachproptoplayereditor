@@ -7,12 +7,10 @@ ui_page 'web/dist/index.html'
 
 shared_scripts {
 	'@ox_lib/init.lua',
-	"resource/command.lua"
 }
 
 client_scripts {
-	"resource/client.lua",
-	"resource/freecam.lua"
+	"client/*.lua",
 }
 
 files {
