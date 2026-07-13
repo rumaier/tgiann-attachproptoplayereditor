@@ -151,7 +151,7 @@ function Start(handle, boneIndex, dict, anim, rotationOrder)
 
     finish()
     return {
-        ("AttachEntityToEntity(entity, PlayerPedId(), %s, %s, %s, %s, %s, %s, %s, true, true, false, true, %s, true)"):format(
+        ("AttachEntityToEntity(<ENTITY_ID>, cache.ped, %s, %s, %s, %s, %s, %s, %s, true, true, false, true, %s, true)"):format(
             pedBoneIndex,
             extraZ - position.z, position.y, position.x,
             rotation.x, rotation.y, rotation.z, rotOrder),
